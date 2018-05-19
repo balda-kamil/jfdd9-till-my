@@ -606,4 +606,6 @@ Istnieje 6 sposobow na wywolanie THIS.
    22. chainMethod -> łańcuchowanie np. .split().reverse().join
    23. ``OO`` Obiect Orientated
    24. Klasy w JavaScript które weszly w standarcie ECMAScript2015 służą do towrzenia nowych obiektów za pomocą klass. 
+   Klasy w JavaScript służą do wygodniejszego budowania łańcucha prototypów przy tworzeniu obiektów.
+   Są więc mechanizmem współdzielenia kodu
                   
