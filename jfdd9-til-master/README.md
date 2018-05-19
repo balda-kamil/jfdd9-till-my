@@ -561,7 +561,7 @@ Istnieje 6 sposobow na wywolanie THIS.
         ```float: left / right``` <br />
         ```position: absolute``` <br />
         ```display: inline-block``` <br />
-   12.CSS FLEX GROW - Określa jaką ilość dostepnej przestrzni wewnątrz konternera ma zajmować dany element. Kontener mozemy podzielić na max 12 częsci.
+  12. CSS FLEX GROW - Określa jaką ilość dostepnej przestrzni wewnątrz konternera ma zajmować dany element. Kontener mozemy podzielić na max 12 częsci.
     ok dajmy na to jeden element ma flex-grow: 3, drugi ma flex-gow: 1
     pierwszy zajmie 75% szerokości kontenera, a drugi 25%. 
    13. Bootstrap to framework, albo biblioteka zalezy gdzie szukasz.
@@ -569,4 +569,41 @@ Istnieje 6 sposobow na wywolanie THIS.
    14. Różnica miedzy frameworkiem, a biblioteką.<br />
    Framework -> nadaje styl kodowania<br />
    Biblioteka-> pozwala rozwiazac jakiś problemy np MOMENT JS<br />
-   15. 
+   15. Asynchroniczność w JavaScript - czyli że jakaś funkcja się nie wykona jesli się cos nie wydarzy, stanie. 
+    funkcje asynchroniczne:<br />
+     ```setTimeOut```<br />
+     ```setInterval```<br />
+     ```Fetch```<br />
+     ```RequestAnimationFrame```<br />
+     ```onClick```<br />
+     
+   16.  **Temporary Dead Zone**<br />
+           VAR ma zasięg funkcyjny, jesli chcemy użyć VAR przed jego zadeklarowaniem dostaniemy undefined
+           ```console.log(zupa)```//undefined <br />
+              ```var zupa = 123``` <br />
+           LET i CONST maja zasięg blokowy, zatem jesli chcemy sie odwolac do leta i consta przed ich zadeklarowaniem wyrzucą nam blędami ReferenceError<br />
+             ```console.log(zupa)```//ReferenceError <br />
+             ```let zupa = 123```
+             
+           Pamietaj ze w JS nastepuje najpierw deklaracja a potem inicjalizacja.
+             ```let x to jest to samo co let x = undefined```
+             
+            ```//console.log(aLet)  // would throw ReferenceError
+               
+               let aLet;
+               console.log(aLet); // undefined
+               aLet = 10;
+               console.log(aLet); // 10
+               
+               Temporary dead zone się kończy kiedy do aLet przypisujemy jakąś wartość
+   
+   17. Co to jest scope leksykalny?
+   Javascript to język kompilowany, to znaczy że krótko przed wykonaniem kodu źródłowego jest on przepuszczany przez kompilator w którym podczas wczesnej fazy (zwanej lexing) definiuje się zakres.
+   18. This jest kontekstem, a kontekst jest obiektem. This wskazuje na obiekt z którego funkcja może korzystać w trakcie działania. W pewnym sensie nadajemy THIS'a, bo w zalezności od sposobu wywoałania  funkcji co innego stoi pod THIS
+   19. Przeglądarka sama dopisze ```;``` jesli po return w jednej linni nie spotka żadnego kodu[ASI Automatic Semicolon Insertion]
+   20. @import możemy style w taki sposób importować z inych plikow bądź z neta
+   21. Zamiennikiem Bootstrapa może być foundation
+   22. chainMethod -> łańcuchowanie np. .split().reverse().join
+   23. ``OO`` Obiect Orientated
+   24. Klasy w JavaScript które weszly w standarcie ECMAScript2015 służą do towrzenia nowych obiektów za pomocą klass. 
+                  
