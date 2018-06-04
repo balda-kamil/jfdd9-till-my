@@ -615,7 +615,14 @@ Istnieje 6 sposobow na wywolanie THIS.
    2. FLOW - jest to system rozszerzający Javascript o typowanie statyczne. działa poza przeglądarką w terminalu i edytodrze, jako niezalezny program analizujacy kod projektu, korzysta z BAbela, zrobiny przez FB. 
    3. QUALITY ASURANCE - jest to utrzymywanie pożądanego poziomu jakości w usludze lub produkcie zwlacza poprzez zwrócenie uwagi na kazdy etap procesu dotawy lub produkcji. 
    4. Wymagania funkcjonalne aplikacji - opisuja funkcję (czynności, operacje, usługi) wykonywane przez system. 
-   5. Wymagania niefunkcjonalne apoikacji - nie dotczą bezpośrednio konkrretnych funkcji systemy, mogą byż związane z wlasciwościami systemu, jak npo czas reakcji, niezawodność, zajętość pamięci. Wynikają z potrzeb użytkownika, ograniczeń budżetowych, strategii firmy, koniecznosci wspołpracy z innymi systemami, czynnikiów zewnętrznych jak przepisy o bezpieczeństwie, ustawy chroniące prywatność itd.  
+   5. Wymagania niefunkcjonalne apoikacji - nie dotczą bezpośrednio konkrretnych funkcji systemy, mogą byż związane z wlasciwościami systemu, jak npo czas reakcji, niezawodność, zajętość pamięci. Wynikają z potrzeb użytkownika, ograniczeń budżetowych, strategii firmy, koniecznosci wspołpracy z innymi systemami, czynnikiów zewnętrznych jak przepisy o bezpieczeństwie, ustawy chroniące prywatność itd.
+   6. OWASP   - Open Web Application Security Project - jest to otwarta społeczonść (oraganizajca chyba..) która umożliwoa organizacjom tworzenie, rozwiajanie, nabywanie, obsługiwanie i utrzymywanie aplikacji ktorym mozna zaufać. Wszystkie narzędzia dokumenty oraz fora OWASP są bezpłatne i otwarte dla wszystkich zainteresowanych poprawą bezpieczeństwa aplikacji.
+   7. PHISHING - metoda oszustwa, wktórej przestepca podszywa się pod inną osobę lub instytucje, w celu wyłudzenia określonych informacji (np. danych logowania, szczegułów karty kredytowej) lub nakłonienia ofiary do okreslonych działań. Jest to rodzaj ataku opartego na inzynieroii spolecznej. 
+   8. 2FA - Multi-factor authentication - to metoda potwierdzania tożsamości uzytkownika, do której użytkownika ma dostep tylko po udanym zaprezentowaniu 2 lub więcej dowodów lub czynników mechanizmowi uwierzytelniania: wiedza (coś, co oni i tylko oni znają), posiadanie (coś, co oni i tylko oni mają), nieuchronność (coś, czym oni i tylko oni sa)
+      Weryfikacja dwuetapowa lub uwierzytelnianie dwuetapowe to metoda potwierdzenia tożsamości uzytkownika za pomocą czegoś, co zna (hasło) i drugiego czynnika, innego niż co mają lub coś, czym sa. 
+   9. KeePass.
+   10.    
+
                      
    
    
