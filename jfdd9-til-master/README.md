@@ -621,7 +621,11 @@ Istnieje 6 sposobow na wywolanie THIS.
    8. 2FA - Multi-factor authentication - to metoda potwierdzania tożsamości uzytkownika, do której użytkownika ma dostep tylko po udanym zaprezentowaniu 2 lub więcej dowodów lub czynników mechanizmowi uwierzytelniania: wiedza (coś, co oni i tylko oni znają), posiadanie (coś, co oni i tylko oni mają), nieuchronność (coś, czym oni i tylko oni sa)
       Weryfikacja dwuetapowa lub uwierzytelnianie dwuetapowe to metoda potwierdzenia tożsamości uzytkownika za pomocą czegoś, co zna (hasło) i drugiego czynnika, innego niż co mają lub coś, czym sa. 
    9. KeePass.
-   10.    
+   10. Testy A/B metoda badawacza polegająca na porównaniu dwóch wersji strony internetowej celem wybrania tej rersji która lepiej spełnia przd nia zadania. Umożliwiają podejmowanie szybkoch decyzji dotyczących elementów architektury informacji strony lub szaty grfaficznej. Sa proste do przewprowadzenia, a ich wyniki łatwe w interpretacji. 
+       najwiekszym minusem jestów A/b jest brak mozliwości testowania w jedym czasie wielu zmiennych, a co za tym idzie brak możliwości zbadania korelacji miedzy zmiennymi, np. za pomocą testu AB nie wywniosukujemy, jakie jest najlepsze powiązanie tpu nagłówka i kolorystyki strony.
+   11. Mockowanie polega na tym że test jednostkowy musi się wykonywać w izolacji od środowiska. Nie ma więc mowy o połączniu się z baza dancyh. Aby możliwe bylo wytestowanie usługi wykorzystującej bazę koniecznie jest dostarczenie zastepczych danych, aby móc wytestować logikę. 
+   12. Selnium to przenośna platforama testowania oprogramowania dla aplickajic internetowych. Selenium zapewnia narzędzie do odtwazania (wczesniej także nagrywania) do tworzenia testów bez potrzeby uczenia się języka skryptowego. (Selenium IDE)
+   13.         
 
                      
    
