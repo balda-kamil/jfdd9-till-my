@@ -608,4 +608,15 @@ Istnieje 6 sposobow na wywolanie THIS.
    24. Klasy w JavaScript które weszly w standarcie ECMAScript2015 służą do towrzenia nowych obiektów za pomocą klass. 
    Klasy w JavaScript służą do wygodniejszego budowania łańcucha prototypów przy tworzeniu obiektów.
    Są więc mechanizmem współdzielenia kodu
-                  
+   
+ # **PO KURSIE**
+   
+   1. jenkins  - to serwer ciągłej integracji o otwartym kodzie źrodlowym napisanym w Javie. Jest w stanie uruchamiac zaplanowane automatyczne kompilacje i zestawy testowe projektów zarządzanego oprogramowania. Kompilacja lub testy moga byc zatwierdzane lub w sposób opraty na kalendarzu. jenkins opiera się zatem na zarządzanym kodzie za pośrednictwem systemy kontolii wersji (patrz git) i zautomatyzowanego procesu budowania. 
+   2. FLOW - jest to system rozszerzający Javascript o typowanie statyczne. działa poza przeglądarką w terminalu i edytodrze, jako niezalezny program analizujacy kod projektu, korzysta z BAbela, zrobiny przez FB. 
+   3. QUALITY ASURANCE - jest to utrzymywanie pożądanego poziomu jakości w usludze lub produkcie zwlacza poprzez zwrócenie uwagi na kazdy etap procesu dotawy lub produkcji. 
+   4. Wymagania funkcjonalne aplikacji - opisuja funkcję (czynności, operacje, usługi) wykonywane przez system. 
+   5. Wymagania niefunkcjonalne apoikacji - nie dotczą bezpośrednio konkrretnych funkcji systemy, mogą byż związane z wlasciwościami systemu, jak npo czas reakcji, niezawodność, zajętość pamięci. Wynikają z potrzeb użytkownika, ograniczeń budżetowych, strategii firmy, koniecznosci wspołpracy z innymi systemami, czynnikiów zewnętrznych jak przepisy o bezpieczeństwie, ustawy chroniące prywatność itd.  
+                     
+   
+   
+
